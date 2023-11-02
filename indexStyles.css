@@ -1,8 +1,8 @@
 .header {
   height: 100%;
   width: 100%;
-  background-color: #F0EDEC;
-  border-bottom: 3px solid #C3B4B1;
+  background-color: #FDFCFC;
+  border-bottom: 1px solid #C3B4B1;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -22,11 +22,40 @@
   margin-bottom: -10px;
   color: #403E3D;
 }
+.header-link:hover{
+    color: #7B7877;
+}
 body {
     padding: 0;
     margin: 0;
+    background-color: #FDFCFC;
+}
+.profile {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 3px solid red; */
+    max-width: 12rem;
+    height: 100vh;
 }
 .profile-image{
     width: 170px;
     border-radius: 50%;
+    border: 1px solid #C3B4B1;
+}
+.about-me {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#signature {
+    font-size: 20px;
+    font-weight: 900;
 }
