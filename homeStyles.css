@@ -1,0 +1,10 @@
+#home {
+    color: #403E3D;
+}
+.home-section {
+    border: 3px solid red;
+    width: 85rem;
+    height: 100vh;
+    margin-left: 6rem;
+    /* margin-right: 6rem; */
+}

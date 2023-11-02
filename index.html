@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="eng">
-  <link rel="stylesheet" href="indexStyles.css" />
-  <head> </head>
+  <head>
+    <link rel="stylesheet" href="indexStyles.css" />
+    <link rel="stylesheet" href="homeStyles.css" />
+  </head>
   <body>
-    <!-- <div class="header"> -->
-    <div class="header-links">
+    <!--Header Section-->
+    <section class="header">
       <div class="link-container">
-        <a class="header-link" href="index.html">Home</a>
+        <a class="header-link" href="index.html" id="home">Home</a>
       </div>
       <div class="link-container">
-        <a class="header-link" href="bio.html">Bio</a>
+        <a class="header-link" href="biography.html">Biography</a>
       </div>
       <div class="link-container">
         <a class="header-link" href="experience.html">Experience</a>
@@ -18,21 +20,31 @@
         <a class="header-link" href="portfolio.html">Portfolio</a>
       </div>
       <div class="underliner"></div>
-    </div>
-
-    <!-- </div> -->
-
-    <section class="profile">
-      <img
-        src="https://avatars.githubusercontent.com/u/109642366?v=4"
-        alt="profile image"
-        class="profile-image"
-      />
-      <p class="about-me"id="signature">Eric Roberson</p>
-      <div class="social-links">
-        <p class="about-me">LinkedIn</p>
-        <p class="about-me">GitHub</p>
-      </div>
     </section>
+    <!--Header Section-->
+
+    <div class="main">
+      <!--Profile Section-->
+      <section class="profile">
+        <img
+          src="https://avatars.githubusercontent.com/u/109642366?v=4"
+          alt="profile image"
+          class="profile-image"
+        />
+        <p class="about-me" id="signature">Eric Roberson</p>
+        <div class="social-links">
+          <p class="about-me">LinkedIn</p>
+          <p class="about-me">GitHub</p>
+        </div>
+      </section>
+      <!--Profile Section-->
+
+      <!--Everything Else-->
+      <section class="home-section">
+        <p>hello</p>
+        <img src="https://media2.giphy.com/media/JIX9t2j0ZTN9S/200w.webp?cid=ecf05e47a3o7d7pqevj5ypdxk6srudxws605dbok7qgdox7v&ep=v1_gifs_search&rid=200w.webp&ct=g"/>
+      </section>
+      <!--Everything Else-->
+    </div>
   </body>
 </html>
