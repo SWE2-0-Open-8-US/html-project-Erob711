@@ -6,6 +6,9 @@ number1.addEventListener('click', function() {
     thing1.style.display = 'block';
     let wifeEmoji = document.getElementById("wife-emoji");
     wifeEmoji.style.display = 'block';
+    let container = document.getElementById("container1");
+    container.style.backgroundColor = '#C96B6B';
+
 });
 
 let number2 = document.getElementById("number2");
@@ -16,6 +19,8 @@ number2.addEventListener('click', function() {
     thing2.style.display = 'block';
     let catEmoji = document.getElementById("cat-emoji");
     catEmoji.style.display = 'block';
+    let container = document.getElementById("container2");
+    container.style.backgroundColor = '#5D8FCC';
 });
 
 let number3 = document.getElementById("number3");
@@ -26,6 +31,8 @@ number3.addEventListener('click', function() {
     thing3.style.display = 'block';
     let programmingEmoji = document.getElementById("programming-emoji");
     programmingEmoji.style.display = 'block';
+    let container = document.getElementById("container3");
+    container.style.backgroundColor = '#4B6A91';
 });
 
 
