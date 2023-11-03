@@ -59,6 +59,7 @@ h6 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-right: 4rem;
 }
 .number {
     width: 5rem;
