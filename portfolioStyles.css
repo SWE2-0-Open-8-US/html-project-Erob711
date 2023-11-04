@@ -1,3 +1,320 @@
 #portfolio {
     color: #403E3D;
 }
+
+#experience {
+    color: #403E3D;
+}
+
+#biography {
+    color: #403E3D;
+}
+
+#home {
+    color: #403E3D;
+}
+.home-section {
+    /* border: 3px solid red; */
+    width: 100%;
+    height: 100vh;
+    margin-left: 6rem;
+    /* margin-right: 6rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.top-section {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 6px;
+    justify-content: flex-start;
+    /* border: 3px solid red; */
+}
+#theme-image{
+    width: 40%;
+    margin-right: 4px;
+    border-radius: 5px;
+    padding: 1px;
+    border: 2px solid #C3B4B1;
+}
+h2 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #403E3D;
+    font-weight: 700;
+    width: 7%;
+    font-size: 46px;
+    margin-bottom: 0;
+    /* border: 3px solid red; */
+}
+h2:hover{
+    content: 'hello';
+}
+h4 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: #403E3D;
+    background-color: #F0F1F0;
+    line-height: 140%;
+    border: 1px solid #D4D6D4;
+    border-radius: 4px;
+}
+h6 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.three-main-things {
+    /* border: 3px solid red; */
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.number {
+    width: 5rem;
+    margin-bottom: -10px;
+}
+.number:hover {
+    cursor: pointer;
+}
+
+#thing-1 {
+    display: none;
+}
+/* #thing-1:{
+    transition: .5s;
+} */
+.thing-section {
+    display: flex;
+    width: 14rem;
+    flex-direction: row;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+#thing-2 {
+    display: none;
+}
+#thing-3 {
+    display: none;
+}
+.thing-container {
+    width: 50px;
+    /* border: 3px solid red; */
+}
+.things {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #403E3D;
+    font-size: 34px;
+    /* border: 3px solid red; */
+}
+.bottom-half {
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    
+}
+.experience{
+    width: 95%;
+    height: 80%;
+    /* border: 2px solid #C3B4B1; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#wife-emoji {
+    display: none;
+}
+#cat-emoji {
+    display: none;
+}
+#programming-emoji {
+    display: none;
+}
+.answers {
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #F7F9F7;
+    width: 12rem;
+}
+.experience-container {
+    width: 9rem;
+    border: 1px solid #C3B4B1;
+    border-radius: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #EFEDED;
+    height: 90%;
+    flex-grow: 1;
+}
+.thing-container {
+    width: 9rem;
+}
+#container1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-grow: 1; */
+}
+#container2 {
+    /* display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; */
+}
+.story-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid #C3B4B1;
+    margin-right: 2px;
+    margin-left: 2px;
+    opacity: 80%;
+}
+.stories-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 3px solid red; */
+    width: 70%;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.top-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C3B4B1;
+}
+.pointer-emoji {
+    margin-top: 0;
+    font-size: 80px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.pointer-container{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.description {
+    /* border: 3px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.guess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    /* border: 3px solid red; */
+}
+
+.guess-text {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: #403E3D;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.experience-title {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    width: max-content;
+    color: #403E3D;
+    font-size: 18px;
+    margin-top: -4px;
+    margin-left: -6px;
+    background-color: #F0F1F0;
+    line-height: 140%;
+    /* border: 1px solid #B0B3B0; */
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#academic {
+    background-color: #69A761;
+    color: white;
+}
+#professional{
+    background-color: #657CA5;
+    color: white;
+}
+.experience-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 110%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #F4F7F4;
+    border: 1px solid #EDEFED;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.tag-title {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    margin-top: -4px;
+    margin-left: -20px;
+    color: #403E3D;
+    margin-bottom: 0;
+    width: max-content;
+    background-color:#F7F9F7;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 3px;
+    border: 1px solid #D4D6D4;
+}
+.tag-description {
+    margin-top: 2px;
+    width: 100%;
+}
+#professional-title {
+    background-color: #E1E8F4;
+}
+
+#academic-title {
+    background-color: #E3F3E2;
+}
+
+.project-photo {
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+}
